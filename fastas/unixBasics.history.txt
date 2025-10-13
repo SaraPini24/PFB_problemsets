@@ -1,0 +1,15 @@
+  220  rm oops2.txt
+  221  git add oops2.txt
+  222  git commit -m 'test oops2 rm'
+  223  git push
+  224  vi oops3
+  225  git add oops3
+  226  git commit -m 'aaa'
+  227  git push
+  228  git rm oops3
+  229  git commit -m 'aaa'
+  230  git push
+  232  man rm
+  233  man cp
+  234  man history
+  235  history
