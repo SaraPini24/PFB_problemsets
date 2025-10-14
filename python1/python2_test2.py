@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sys
 
-test_number = int(sys.argv[1])
+test_number = float(sys.argv[1])
 
 print(test_number, 'is the tested number')
 if test_number > 0:
