@@ -1,15 +1,13 @@
 #!/usr/bin/env python3
 
 #create a variable that stores the DNA sequence
-#armonize the case of the characters to uppercase
-#count As, Cs, Ts and Gs
-#include the counts in a dictionary object
-#print the dictionary
 
 import sys
 dna = sys.argv[1]
 
+#armonize the case of the characters to uppercase
 dna_allupp = dna.upper()
+#count As, Cs, Ts and Gs
 n_As = dna_allupp.count('A')
 n_Ts = dna_allupp.count('T')
 n_Cs = dna_allupp.count('C')
