@@ -15,5 +15,3 @@ for i in range(len(seq_list)): #for each letter of the sequence
     a = random.randrange(len(seq_list)) #selects a random position in the range of the lyst (0, length-1)
     seq_list[a], seq_list[j] = seq_list[j], seq_list[a] #swops the letters at the two positions
     print(''.join(seq_list)) #prints all the sequences
-
-###BONUS EXERCISE.2###
