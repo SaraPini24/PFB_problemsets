@@ -6,7 +6,7 @@ parsed = {}
 with open('Python_07.fasta.txt', 'r') as fastq_seq:
     for line in fastq_seq:
         line = line.rstrip()
-        print(f'Step1 {line}')
+        #print(f'Step1 {line}')
         if line.startswith('>'):
             for match in re.finditer(r'^(>\S+)(.+)', line):
                 print(match)
