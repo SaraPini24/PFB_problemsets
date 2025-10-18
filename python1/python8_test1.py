@@ -59,3 +59,18 @@ with open('Python_08.codons-strand- frame-1_3.nt.txt', 'w') as fo:
             for codon in codons:
                 fo.write(f'{codon} ')
             fo.write('\n')
+
+#gprint all six frames
+with open('Python_08.codons-6frames.nt.txt', 'w') as fo:
+    for name_seq in parsed:
+        for n in range(3):
+            codons = re.findall(r'(.{3})',parsed[name_seq]['sequence'][n:]) #Identifies codon from frame 1
+            fo.write(f'seq{name_seq}-strand + frame{n+1}-codons\n')
+            for codon in codons:
+                fo.write(f'{codon} ')
+            fo.write('\n')
+            codonsrev = re.findall(r'(.{3})',parsed[name_seq]['revcompl'][n:]) #Identifies codon from frame 1
+            fo.write(f'seq{name_seq}-strand - frame{n+1}-codons\n')
+            for codonrev in codonsrev:
+                fo.write(f'{codonrev} ')
+            fo.write('\n')
