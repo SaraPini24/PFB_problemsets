@@ -41,7 +41,8 @@ for blast_record in blast_records:
    query_id = blast_record.query_id
    for alignment in blast_record.alignments:
      for hsp in alignment.hsps:
-        if hsp.expect < 1e-10:
-           print(f'qid: {query_id} hit_id: {alignment.title} E: {hsp.expect:.3}' )
+        if hsp.expect < 1e-5:
+           print(f'qid: {query_id} hit_id: {alignment.title} E: {hsp.expect:.3} score: {hsp.score}' )
+           print(f'Identity: {hsp.identities/hsp.align_length:.2%} Similarity: {hsp.positives/hsp.align_length:.2%}')
         
 #results can be also in tsv fomat (7) than change parsing method
