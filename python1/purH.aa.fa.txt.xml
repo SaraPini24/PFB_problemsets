@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>uniprot_SparatyphiB.fasta.txt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>tr|A0A248KKL2|A0A248KKL2_9ENTR Bifunctional purine biosynthesis protein PurH OS=Kluyvera genomosp. 3 OX=2774055 GN=purH PE=3 SV=1</BlastOutput_query-def>
+  <BlastOutput_query-len>529</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>tr|A0A248KKL2|A0A248KKL2_9ENTR Bifunctional purine biosynthesis protein PurH OS=Kluyvera genomosp. 3 OX=2774055 GN=purH PE=3 SV=1</Iteration_query-def>
+  <Iteration_query-len>529</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|A9N0L8|PUR9_SALPB</Hit_id>
+  <Hit_def>Bifunctional purine biosynthesis protein PurH OS=Salmonella paratyphi B (strain ATCC BAA-1250 / SPB7) OX=1016998 GN=purH PE=3 SV=1</Hit_def>
+  <Hit_accession>A9N0L8</Hit_accession>
+  <Hit_len>529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1083.55</Hsp_bit-score>
+      <Hsp_score>2801</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>529</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>529</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>524</Hsp_identity>
+      <Hsp_positive>526</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>529</Hsp_align-len>
+      <Hsp_qseq>MQQRRPVRRALLSVSDKAGIIEFAQALSARGVELLSTGGTARLLAEKGLPVTEVSDYTGFPEMMDGRVKTLHPKVHGGILGRRGQDDAIMEQHHIAPIDMVVVNLYPFAETVAREGCSLEDAVENIDIGGPTMVRSAAKNHKDVAIVVKSSDYDAIIKEMDANEGSLTLDTRFDLAIKAFEHTAAYDSMIANYFGSMVPAYHGESKEAAGRFPRTLNLNFIKKQDMRYGENSHQQAAFYIEENVKEASVATAQQVQGKALSYNNIADTDAALECVKEFNEPACVIVKHANPCGVAVSATILDAYDRAYKTDPTSAFGGIIAFNRELDAETAQAIISRQFVEVIIAPSASEEALKITAAKQNVRVLTCGQWASRVPGLDFKRVNGGLLVQDRDLGMVSEAELRVVSKRQPTEQELRDALFCWKVAKFVKSNAIVYAKENMTIGIGAGQMSRVYSAKIAGIKAADEGLEVKGSAMASDAFFPFRDGIDAAAAVGVSCVIQPGGSIRDEEVIAAADEHGIAMIFTDMRHFRH</Hsp_qseq>
+      <Hsp_hseq>MQQRRPVRRALLSVSDKAGIIEFAQALSARGVELLSTGGTARLLAEKGLPVTEVSDYTGFPEMMDGRVKTLHPKVHGGILGRRGQDDAIMEQHHIAPIDMVVVNLYPFAETVAREGCSLEDAVENIDIGGPTMVRSAAKNHKDVAIVVKSSDYDAIIKEMDANEGSLTLDTRFDLAIKAFEHTAAYDSMIANYFGSMVPAYHGESKEAAGRFPRTLNLNFIKKQDMRYGENSHQQAAFYIEENVKEASVATAQQVQGKALSYNNIADTDAALECVKEFNEPACVIVKHANPCGVAVSTSILDAYDRAYKTDPTSAFGGIIAFNRELDAETAQAIISRQFVEVIIAPSASEEALKITAAKQNVRVLTCGQWGERVPGLDFKRVNGGLLVQDRDLGMVSEAELRVVSKRQPTEQELRDALFCWKVAKFVKSNAIVYAKENMTIGIGAGQMSRVYSAKIAGIKAADEGLEVKGSAMASDAFFPFRDGIDAAAAVGVSCVIQPGGSIRDDEVIAAADEHGIAMIFTDMRHFRH</Hsp_hseq>
+      <Hsp_midline>MQQRRPVRRALLSVSDKAGIIEFAQALSARGVELLSTGGTARLLAEKGLPVTEVSDYTGFPEMMDGRVKTLHPKVHGGILGRRGQDDAIMEQHHIAPIDMVVVNLYPFAETVAREGCSLEDAVENIDIGGPTMVRSAAKNHKDVAIVVKSSDYDAIIKEMDANEGSLTLDTRFDLAIKAFEHTAAYDSMIANYFGSMVPAYHGESKEAAGRFPRTLNLNFIKKQDMRYGENSHQQAAFYIEENVKEASVATAQQVQGKALSYNNIADTDAALECVKEFNEPACVIVKHANPCGVAVS +ILDAYDRAYKTDPTSAFGGIIAFNRELDAETAQAIISRQFVEVIIAPSASEEALKITAAKQNVRVLTCGQW  RVPGLDFKRVNGGLLVQDRDLGMVSEAELRVVSKRQPTEQELRDALFCWKVAKFVKSNAIVYAKENMTIGIGAGQMSRVYSAKIAGIKAADEGLEVKGSAMASDAFFPFRDGIDAAAAVGVSCVIQPGGSIRD+EVIAAADEHGIAMIFTDMRHFRH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|A9MTU1|GLPE_SALPB</Hit_id>
+  <Hit_def>Thiosulfate sulfurtransferase GlpE OS=Salmonella paratyphi B (strain ATCC BAA-1250 / SPB7) OX=1016998 GN=glpE PE=3 SV=1</Hit_def>
+  <Hit_accession>A9MTU1</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.884587</Hsp_evalue>
+      <Hsp_query-from>267</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>DTDAALECVKEFNEPACVIVKHANPCGVAVSATILDAYDRAYKTDPTSAFGGIIAFNRELDAETA</Hsp_qseq>
+      <Hsp_hseq>DTLGAFMREHGFDTAVMVMCYHGNSSKGAAQYLLQQGYDAVYSID-----GGFEAWHRRFPADVA</Hsp_hseq>
+      <Hsp_midline>DT  A      F+    V+  H N    A    +   YD  Y  D     GG  A++R   A+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|A9N7S1|HIS4_SALPB</Hit_id>
+  <Hit_def>1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase OS=Salmonella paratyphi B (strain ATCC BAA-1250 / SPB7) OX=1016998 GN=hisA PE=3 SV=1</Hit_def>
+  <Hit_accession>A9N7S1</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>1.46348</Hsp_evalue>
+      <Hsp_query-from>492</Hsp_query-from>
+      <Hsp_query-to>520</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>GVSCVIQPGGSIRDEEVIAAADEHGIAMI</Hsp_qseq>
+      <Hsp_hseq>GVNVPVQVGGGVRTEEDVAALLKAGVARV</Hsp_hseq>
+      <Hsp_midline>GV+  +Q GG +R EE +AA  + G+A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|A9N735|ASSY_SALPB</Hit_id>
+  <Hit_def>Argininosuccinate synthase OS=Salmonella paratyphi B (strain ATCC BAA-1250 / SPB7) OX=1016998 GN=argG PE=3 SV=1</Hit_def>
+  <Hit_accession>A9N735</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>2.57535</Hsp_evalue>
+      <Hsp_query-from>265</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>IADTDAALECVKEFNEPACVIVKHANPCGVAVSATILDAYDRAYKTDPTSAFG</Hsp_qseq>
+      <Hsp_hseq>VAEGIAAIQCGAFHNTTGGLTYFNTTPLGRAVTGTMLVA---AMKEDGVNIWG</Hsp_hseq>
+      <Hsp_midline>+A+  AA++C    N    +   +  P G AV+ T+L A   A K D  + +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|A9MUY8|PURT_SALPB</Hit_id>
+  <Hit_def>Formate-dependent phosphoribosylglycinamide formyltransferase OS=Salmonella paratyphi B (strain ATCC BAA-1250 / SPB7) OX=1016998 GN=purT PE=3 SV=1</Hit_def>
+  <Hit_accession>A9MUY8</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.8682</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>6.32358</Hsp_evalue>
+      <Hsp_query-from>486</Hsp_query-from>
+      <Hsp_query-to>499</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>11</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>14</Hsp_align-len>
+      <Hsp_qseq>DAAAAVGVSCVIQP</Hsp_qseq>
+      <Hsp_hseq>DAVAAVGFPCIVKP</Hsp_hseq>
+      <Hsp_midline>DA AAVG  C+++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|A9N804|HCP_SALPB</Hit_id>
+  <Hit_def>Hydroxylamine reductase OS=Salmonella paratyphi B (strain ATCC BAA-1250 / SPB7) OX=1016998 GN=hcp PE=3 SV=1</Hit_def>
+  <Hit_accession>A9N804</Hit_accession>
+  <Hit_len>550</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.8682</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>6.45897</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>168</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>HGGILGRRGQDDAIMEQHHIAPIDMVVVNLYPFAETVAREGCSLE------------DAVENIDIGGPTMVRSAAKNHKDVAIVVKSSDYDAIIKEMDANEGS-LTLDTRFD-LAIKAFEHTAAYDSMIANYFGSMVPAYHGESKEAAGRFP</Hsp_qseq>
+      <Hsp_hseq>HAHVLGQY--DNDIYAQYHKI---MAWLGTWP-ADMNALLECAMEIGQMNFKVMSILDAGETTKYGHPTPTQVNVKATEGKCILISGHDLKDLYNLLEQTEGTGVNVYTHGEMLPAHGYPELRKFKHLVGNY-GS---GWQNQQVEFA-RFP</Hsp_hseq>
+      <Hsp_midline>H  +LG+   D+ I  Q+H     M  +  +P A+  A   C++E            DA E    G PT  +   K  +   I++   D   +   ++  EG+ + + T  + L    +     +  ++ NY GS    +  +  E A RFP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|A9N5A2|MEND_SALPB</Hit_id>
+  <Hit_def>2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase OS=Salmonella paratyphi B (strain ATCC BAA-1250 / SPB7) OX=1016998 GN=menD PE=3 SV=1</Hit_def>
+  <Hit_accession>A9N5A2</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.483</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>7.0483</Hsp_evalue>
+      <Hsp_query-from>319</Hsp_query-from>
+      <Hsp_query-to>359</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>IIAFNRELDAETAQAIISRQFVEVIIAPSASEEALKITAAK</Hsp_qseq>
+      <Hsp_hseq>VSAFNRRWAAVILEALTRHGVRHVCIAPGSRSTPLTLAAAE</Hsp_hseq>
+      <Hsp_midline>+ AFNR   A   +A+       V IAP +    L + AA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|A9N238|SYFA_SALPB</Hit_id>
+  <Hit_def>Phenylalanine--tRNA ligase alpha subunit OS=Salmonella paratyphi B (strain ATCC BAA-1250 / SPB7) OX=1016998 GN=pheS PE=3 SV=1</Hit_def>
+  <Hit_accession>A9N238</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.0978</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>9.54089</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>46</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>QALSARGVELLSTGGTARLLAE</Hsp_qseq>
+      <Hsp_hseq>QALNARKAELESAALNARLAAE</Hsp_hseq>
+      <Hsp_midline>QAL+AR  EL S    ARL AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>717</Statistics_db-num>
+      <Statistics_db-len>227653</Statistics_db-len>
+      <Statistics_hsp-len>76</Statistics_hsp-len>
+      <Statistics_eff-space>78441933</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
