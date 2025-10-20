@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-#Exercise 1
+#Exercise 1 FASTA parser
 
 #Create a new FASTA parser that uses BioPython SeqIO (e.g. from Bio import SeqIO) (review SeqIO.parse in notes) to print the sequence name, description, and sequence as tab delimited output
 from Bio import SeqIO
