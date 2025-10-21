@@ -32,6 +32,17 @@ class DNARecord(object):
     def fasta_format(self):
         return f'>{self.gene_name}\n{self.sequence}'
 
+#Create a method that can compare two DNA Sequence records and returns True if they are the same or False if they are different. 
+#Sameness is based on name, organism, and sequence. All need to be the same for two objects to be considered the same.
+
+    def seq_compare(self, query):
+        if self.gene_name == query.gene_name:
+            if self.species_name == query.species_name:
+                if self.sequence == query.sequence:
+                    output = f'{self.gene_name} and {query.gene_name} are the same'
+        else:
+            output = f'{self.gene_name} and {query.gene_name} are different'
+        return output
 
 ##Out of the class definition
 dna_rec_obj1 = DNARecord('ABC', 'AAAACGCGTTTTATCGATCGATCGATCGATCGATCGATCGATCGATCTCAGAGACTCTCAGAGAGGGAAATTTCCCATAGCTAGTCCATCGATCGTACATGCTACT', 'H.sapiens')
@@ -42,3 +53,4 @@ print(dna_rec_obj1.get_length())
 print(dna_rec_obj1.gc_content())
 print(dna_rec_obj1.nt_composition())
 print(dna_rec_obj1.fasta_format())
+print(dna_rec_obj1.seq_compare(dna_rec_obj2))
